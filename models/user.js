@@ -6,7 +6,7 @@ const applicationSchema = new mongoose.Schema({
       notes: {type: String},
       postingLink: {type: String},
       status: {
-        type: {String},
+        type: String,
         enum: ['interested', 'applied', 'interviewing', 'rejected', 'accepted'],
       }
 });
